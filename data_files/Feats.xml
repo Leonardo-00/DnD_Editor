@@ -1,0 +1,38 @@
+<feats>
+    <feat>
+        <type>feat</type>
+        <name>Power Attack</name>
+        <description>Power Attack sample description.</description>
+        <prerequisites>
+            <prerequisite>
+                <type>ability</type>
+                <ability>Strength</ability>
+                <minValue>13</minValue>
+            </prerequisite>
+        </prerequisites>
+        <tags>
+            <tag>fighter</tag>
+        </tags>
+    </feat>
+    <feat>
+        <type>bonus</type>
+        <name>Better at jumps</name>
+        <description>You can jump better</description>
+        <prerequisites>
+            <prerequisite>
+                <type>ability</type>
+                <ability>Strength</ability>
+                <minValue>13</minValue>
+            </prerequisite>
+        </prerequisites>
+        <tags></tags>
+        <stacks>true</stacks>
+        <choice>false</choice>
+        <bonuses>
+            <bonus>
+                <type>Jump skill check</type>
+                <value>22</value>
+            </bonus>
+        </bonuses>
+    </feat>
+</feats>

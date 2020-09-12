@@ -1,0 +1,416 @@
+<classes>
+    <class>
+        <name>Barbarian</name>
+        <maxLevel>20</maxLevel>
+        <hitDie>12</hitDie>
+        <literacy>false</literacy>
+        <babProgression>High</babProgression>
+        <saveBonuses>
+            <saveBonus>Fast</saveBonus>
+            <saveBonus>Slow</saveBonus>
+            <saveBonus>Slow</saveBonus>
+        </saveBonuses>
+        <skillPoints>4</skillPoints>
+        <classSkills>
+            <skill>Climb</skill>
+            <skill>Craft</skill>
+            <skill>Handle animal</skill>
+            <skill>Intimidate</skill>
+            <skill>Jump</skill>
+            <skill>Listen</skill>
+            <skill>Ride</skill>
+            <skill>Survival</skill>
+            <skill>Swim</skill>
+        </classSkills>
+        <classFeatures>
+            <feature>
+                <id>Fast movement</id>
+                <ranks>
+                    <capacity rank="1">
+                        <name>Fast movement</name>
+                        <description>A barbarian’s land speed is faster than the norm for his race by +3 meters. This benefit applies only when he is wearing no armor, light armor, or medium armor and not carrying a heavy load. Apply this bonus before modifying the barbarian’s speed because of any load carried or armor worn.</description>
+                        <bonuses>
+                            <bonus>
+                                <value>3</value>
+                                <type>Land speed</type>
+                            </bonus>
+                        </bonuses>
+                    </capacity>
+                </ranks>
+            </feature>
+            <feature>
+                <id>Illiteracy</id>
+                <ranks>
+                    <capacity rank="1">
+                        <name>Illiteracy</name>
+                        <description>Barbarians are the only characters who do not automatically know how to read and write. A barbarian may spend 2 skill points to gain the ability to read and write all languages he is able to speak.</description>
+                        <bonuses></bonuses>
+                    </capacity>
+                </ranks>
+            </feature>
+            <feature>
+                <id>Rage</id>
+                <ranks>
+                    <capacity rank = "1">
+                        <name>Rage</name>
+                        <description>Rage description 1.</description>
+                        <bonuses>
+                            <bonus>
+                                <value>4</value>
+                                <type>Rage strength</type>
+                            </bonus>
+                            <bonus>
+                                <value>4</value>
+                                <type>Rage constitution</type>
+                            </bonus>
+                            <bonus>
+                                <value>+2</value>
+                                <type>Rage morale on will</type>
+                            </bonus>
+                            <bonus>
+                                <value>-2</value>
+                                <type>Rage AC</type>
+                            </bonus>
+                        </bonuses>
+                    </capacity>
+                </ranks>
+            </feature>
+            <feature>
+                <id>Daily rages</id>
+                <ranks>
+                    <capacity rank = "1">
+                        <name>Rage 1/d</name>
+                        <description>The character can fly into a rage once a day.</description>
+                        <bonuses>
+                            <bonus>
+                                <value>1</value>
+                                <type>Daily rages</type>
+                            </bonus>
+                        </bonuses>
+                    </capacity>
+                    <capacity rank = "2">
+                        <name>Rage 2/d</name>
+                        <description>The character can fly into a rage twice a day.</description>
+                        <bonuses>
+                            <bonus>
+                                <value>2</value>
+                                <type>Daily rages</type>
+                            </bonus>
+                        </bonuses>
+                    </capacity>
+                    <capacity rank = "3">
+                        <name>Rage 3/d</name>
+                        <description>The character can fly into a rage thrice a day.</description>
+                        <bonuses>
+                            <bonus>
+                                <value>3</value>
+                                <type>Daily rages</type>
+                            </bonus>
+                        </bonuses>
+                    </capacity>
+                </ranks>
+            </feature>
+        </classFeatures>
+        <specialTable>
+            <row level="1">
+                <capacity>Fast movement</capacity>
+                <capacity>Illiteracy</capacity>
+                <capacity>Rage</capacity>
+                <capacity>Daily rages</capacity>
+            </row>
+            <row level="4">
+                <capacity>Daily rages</capacity>
+            </row>
+            <row level="8">
+                <capacity>Daily rages</capacity>
+            </row>
+        </specialTable>
+        <prerequisites>
+            <prerequisite type="alignment">
+                <alignment>Neutral Good</alignment>
+                <alignment>Pure Neutral</alignment>
+                <alignment>Neutral Evil</alignment>
+                <alignment>Chaotic Good</alignment>
+                <alignment>Chaotic Neutral</alignment>
+                <alignment>Chaotic Evil</alignment>
+            </prerequisite>
+        </prerequisites>
+        <proficiencies>
+            <proficiency>
+                <type>Simple weapons</type>
+                <specs>ANY</specs>
+            </proficiency>
+            <proficiency>
+                <type>Martial weapons</type>
+                <specs>ANY</specs>
+            </proficiency>
+            <proficiency>
+                <type>Light armors</type>
+                <specs>ANY</specs>
+            </proficiency>
+            <proficiency>
+                <type>Medium armors</type>
+                <specs>ANY</specs>
+            </proficiency>
+            <proficiency>
+                <type>Shields</type>
+                <specs>Light</specs>
+            </proficiency>
+            <proficiency>
+                <type>Shields</type>
+                <specs>Heavy</specs>
+            </proficiency>
+        </proficiencies>
+    </class>
+    <class>
+        <name>Fighter</name>
+        <maxLevel>20</maxLevel>
+        <hitDie>10</hitDie>
+        <literacy>true</literacy>
+        <babProgression>High</babProgression>
+        <saveBonuses>
+            <saveBonus>Fast</saveBonus>
+            <saveBonus>Slow</saveBonus>
+            <saveBonus>Slow</saveBonus>
+        </saveBonuses>
+        <skillPoints>2</skillPoints>
+        <classSkills>
+            <skill>Climb</skill>
+            <skill>Craft</skill>
+            <skill>Handle animal</skill>
+            <skill>Intimidate</skill>
+            <skill>Jump</skill>
+            <skill>Ride</skill>
+            <skill>Swim</skill>
+        </classSkills>
+        <classFeatures>
+            <feature>
+                <id>Fighter bonus feat n°1</id>
+                <ranks>
+                    <capacity rank="1">
+                        <name>Bonus fighter feat.</name>
+                        <description>The character can choose one extra bonus from a pool of fighting feats.</description>
+                        <bonuses>
+                            <bonus>
+                                <type>Fighter feat</type>
+                                <value>1</value>
+                            </bonus>
+                        </bonuses>
+                    </capacity>
+                </ranks>
+            </feature>
+            <feature>
+                <id>Fighter bonus feat n°2</id>
+                <ranks>
+                    <capacity rank="1">
+                        <name>Bonus fighter feat.</name>
+                        <description>The character can choose one extra bonus from a pool of fighting feats.</description>
+                        <bonuses>
+                            <bonus>
+                                <type>Fighter feat</type>
+                                <value>1</value>
+                            </bonus>
+                        </bonuses>
+                    </capacity>
+                </ranks>
+            </feature>
+            <feature>
+                <id>Fighter bonus feat n°3</id>
+                <ranks>
+                    <capacity rank="1">
+                        <name>Bonus fighter feat.</name>
+                        <description>The character can choose one extra bonus from a pool of fighting feats.</description>
+                        <bonuses>
+                            <bonus>
+                                <type>Fighter feat</type>
+                                <value>1</value>
+                            </bonus>
+                        </bonuses>
+                    </capacity>
+                </ranks>
+            </feature>
+            <feature>
+                <id>Fighter bonus feat n°4</id>
+                <ranks>
+                    <capacity rank="1">
+                        <name>Bonus fighter feat.</name>
+                        <description>The character can choose one extra bonus from a pool of fighting feats.</description>
+                        <bonuses>
+                            <bonus>
+                                <type>Fighter feat</type>
+                                <value>1</value>
+                            </bonus>
+                        </bonuses>
+                    </capacity>
+                </ranks>
+            </feature>
+            <feature>
+                <id>Fighter bonus feat n°5</id>
+                <ranks>
+                    <capacity rank="1">
+                        <name>Bonus fighter feat.</name>
+                        <description>The character can choose one extra bonus from a pool of fighting feats.</description>
+                        <bonuses>
+                            <bonus>
+                                <type>Fighter feat</type>
+                                <value>1</value>
+                            </bonus>
+                        </bonuses>
+                    </capacity>
+                </ranks>
+            </feature>
+            <feature>
+                <id>Fighter bonus feat n°6</id>
+                <ranks>
+                    <capacity rank="1">
+                        <name>Bonus fighter feat.</name>
+                        <description>The character can choose one extra bonus from a pool of fighting feats.</description>
+                        <bonuses>
+                            <bonus>
+                                <type>Fighter feat</type>
+                                <value>1</value>
+                            </bonus>
+                        </bonuses>
+                    </capacity>
+                </ranks>
+            </feature>
+            <feature>
+                <id>Fighter bonus feat n°7</id>
+                <ranks>
+                    <capacity rank="1">
+                        <name>Bonus fighter feat.</name>
+                        <description>The character can choose one extra bonus from a pool of fighting feats.</description>
+                        <bonuses>
+                            <bonus>
+                                <type>Fighter feat</type>
+                                <value>1</value>
+                            </bonus>
+                        </bonuses>
+                    </capacity>
+                </ranks>
+            </feature>
+            <feature>
+                <id>Fighter bonus feat n°8</id>
+                <ranks>
+                    <capacity rank="1">
+                        <name>Bonus fighter feat.</name>
+                        <description>The character can choose one extra bonus from a pool of fighting feats.</description>
+                        <bonuses>
+                            <bonus>
+                                <type>Fighter feat</type>
+                                <value>1</value>
+                            </bonus>
+                        </bonuses>
+                    </capacity>
+                </ranks>
+            </feature>
+            <feature>
+                <id>Fighter bonus feat n°9</id>
+                <ranks>
+                    <capacity rank="1">
+                        <name>Bonus fighter feat.</name>
+                        <description>The character can choose one extra bonus from a pool of fighting feats.</description>
+                        <bonuses>
+                            <bonus>
+                                <type>Fighter feat</type>
+                                <value>1</value>
+                            </bonus>
+                        </bonuses>
+                    </capacity>
+                </ranks>
+            </feature>
+            <feature>
+                <id>Fighter bonus feat n°10</id>
+                <ranks>
+                    <capacity rank="1">
+                        <name>Bonus fighter feat.</name>
+                        <description>The character can choose one extra bonus from a pool of fighting feats.</description>
+                        <bonuses>
+                            <bonus>
+                                <type>Fighter feat</type>
+                                <value>1</value>
+                            </bonus>
+                        </bonuses>
+                    </capacity>
+                </ranks>
+            </feature>
+            <feature>
+                <id>Fighter bonus feat n°11</id>
+                <ranks>
+                    <capacity rank="1">
+                        <name>Bonus fighter feat.</name>
+                        <description>The character can choose one extra bonus from a pool of fighting feats.</description>
+                        <bonuses>
+                            <bonus>
+                                <type>Fighter feat</type>
+                                <value>1</value>
+                            </bonus>
+                        </bonuses>
+                    </capacity>
+                </ranks>
+            </feature>
+        </classFeatures>
+        <specialTable>
+            <row level="1">
+                <capacity>Fighter bonus feat n°1</capacity>
+            </row>
+            <row level="2">
+                <capacity>Fighter bonus feat n°2</capacity>
+            </row>
+            <row level="4">
+                <capacity>Fighter bonus feat n°3</capacity>
+            </row>
+            <row level="6">
+                <capacity>Fighter bonus feat n°4</capacity>
+            </row>
+            <row level="8">
+                <capacity>Fighter bonus feat n°5</capacity>
+            </row>
+            <row level="10">
+                <capacity>Fighter bonus feat n°6</capacity>
+            </row>
+            <row level="12">
+                <capacity>Fighter bonus feat n°7</capacity>
+            </row>
+            <row level="14">
+                <capacity>Fighter bonus feat n°8</capacity>
+            </row>
+            <row level="16">
+                <capacity>Fighter bonus feat n°9</capacity>
+            </row>
+            <row level="18">
+                <capacity>Fighter bonus feat n°10</capacity>
+            </row>
+            <row level="20">
+                <capacity>Fighter bonus feat n°11</capacity>
+            </row>
+        </specialTable>
+        <prerequisites></prerequisites>
+        <proficiencies>
+            <proficiency>
+                <type>Simple weapons</type>
+                <specs>ANY</specs>
+            </proficiency>
+            <proficiency>
+                <type>Martial weapons</type>
+                <specs>ANY</specs>
+            </proficiency>
+            <proficiency>
+                <type>Light armors</type>
+                <specs>ANY</specs>
+            </proficiency>
+            <proficiency>
+                <type>Medium armors</type>
+                <specs>ANY</specs>
+            </proficiency>
+            <proficiency>
+                <type>Heavy armors</type>
+                <specs>ANY</specs>
+            </proficiency>
+            <proficiency>
+                <type>Shields</type>
+                <specs>ANY</specs>
+            </proficiency>
+        </proficiencies>
+    </class>
+</classes>

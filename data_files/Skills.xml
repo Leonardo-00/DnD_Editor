@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<skills>
+	<skill>
+		<name>Appraise</name>
+		<keyAbility>Intelligence</keyAbility>
+		<penalty>none</penalty>
+		<description>Appraise sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Balance</name>
+		<keyAbility>Dexterity</keyAbility>
+		<penalty>once</penalty>
+		<description>Balance sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Bluff</name>
+		<keyAbility>Charisma</keyAbility>
+		<penalty>none</penalty>
+		<description>Bluff sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Climb</name>
+		<keyAbility>Strength</keyAbility>
+		<penalty>once</penalty>
+		<description>Climb sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Concentration</name>
+		<keyAbility>Constitution</keyAbility>
+		<penalty>none</penalty>
+		<description>Concentration sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Decipher script</name>
+		<keyAbility>Intelligence</keyAbility>
+		<penalty>none</penalty>
+		<description>Decipher script sampre description</description>
+		<training>true</training>
+	</skill>
+	<skill>
+		<name>Diplomacy</name>
+		<keyAbility>Charisma</keyAbility>
+		<penalty>none</penalty>
+		<description>Diplomacy sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Disable device</name>
+		<keyAbility>Intelligence</keyAbility>
+		<penalty>none</penalty>
+		<description>Disable device sample description</description>
+		<training>true</training>
+	</skill>
+	<skill>
+		<name>Disguise</name>
+		<keyAbility>Charisma</keyAbility>
+		<penalty>none</penalty>
+		<description>Disguise sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Escape artist</name>
+		<keyAbility>Dexterity</keyAbility>
+		<penalty>once</penalty>
+		<description>Escape artist sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Forgery</name>
+		<keyAbility>Intelligence</keyAbility>
+		<penalty>none</penalty>
+		<description>Forgery sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Gather information</name>
+		<keyAbility>Charisma</keyAbility>
+		<penalty>none</penalty>
+		<description>Gather information sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Handle animal</name>
+		<keyAbility>Charisma</keyAbility>
+		<penalty>none</penalty>
+		<description>Handle animal sample description</description>
+		<training>true</training>
+	</skill>
+	<skill>
+		<name>Heal</name>
+		<keyAbility>Wisdom</keyAbility>
+		<penalty>none</penalty>
+		<description>Heal sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Hide</name>
+		<keyAbility>Dexterity</keyAbility>
+		<penalty>once</penalty>
+		<description>Hide sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Intimidate</name>
+		<keyAbility>Charisma</keyAbility>
+		<penalty>none</penalty>
+		<description>Intimidate sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Jump</name>
+		<keyAbility>Strength</keyAbility>
+		<penalty>true</penalty>
+		<description>Jump sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Listen</name>
+		<keyAbility>Wisdom</keyAbility>
+		<penalty>none</penalty>
+		<description>Listen sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Move silently</name>
+		<keyAbility>Dexterity</keyAbility>
+		<penalty>once</penalty>
+		<description>Move silently sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Open lock</name>
+		<keyAbility>Dexterity</keyAbility>
+		<penalty>none</penalty>
+		<description>Open lock sample description</description>
+		<training>true</training>
+	</skill>
+	<skill>
+		<name>Ride</name>
+		<keyAbility>Dexterity</keyAbility>
+		<penalty>none</penalty>
+		<description>Ride sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Search</name>
+		<keyAbility>Intelligence</keyAbility>
+		<penalty>none</penalty>
+		<description>Search sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Sense motive</name>
+		<keyAbility>Wisdom</keyAbility>
+		<penalty>none</penalty>
+		<description>Sense motive sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Sleight of hand</name>
+		<keyAbility>Dexterity</keyAbility>
+		<penalty>once</penalty>
+		<description>Sleight of hand sample description</description>
+		<training>true</training>
+	</skill>
+	<skill>
+		<name>Spellcraft</name>
+		<keyAbility>Intelligence</keyAbility>
+		<penalty>none</penalty>
+		<description>Spellcraft sample description</description>
+		<training>true</training>
+	</skill>
+	<skill>
+		<name>Spot</name>
+		<keyAbility>Wisdom</keyAbility>
+		<penalty>none</penalty>
+		<description>Spot sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Survival</name>
+		<keyAbility>Wisdom</keyAbility>
+		<penalty>none</penalty>
+		<description>Survival sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Swim</name>
+		<keyAbility>Strength</keyAbility>
+		<penalty>twice</penalty>
+		<description>Swin sample description</description>
+		<training>false</training>
+	</skill>
+	<skill>
+		<name>Tumble</name>
+		<keyAbility>Dexterity</keyAbility>
+		<penalty>once</penalty>
+		<description>Tumble sample description</description>
+		<training>true</training>
+	</skill>
+	<skill>
+		<name>Use magic device</name>
+		<keyAbility>Charisma</keyAbility>
+		<penalty>none</penalty>
+		<description>Use magice device sample description</description>
+		<training>true</training>
+	</skill>
+	<skill>
+		<name>Use rope</name>
+		<keyAbility>Dexterity</keyAbility>
+		<penalty>none</penalty>
+		<description>Use rope sample description</description>
+		<training>false</training>
+	</skill>
+</skills>
